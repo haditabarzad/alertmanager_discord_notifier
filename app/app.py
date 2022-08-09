@@ -43,18 +43,18 @@ def hello():
                 severity_text = "no severity"
 
             discord_data = {
-                "username": "Zi-tel DevOps",
-                "avatar_url": "https://imgur.com/euhakCZ.png",
-                "content": "Alerts from BSS Monitoring System"
+                "username": "Promtetheus",
+                "avatar_url": "https://imgur.com/TEST_IMAGE.png",
+                "content": "Prometheus Discord Notifier"
                 }
             discord_data["embeds"] = [
                     {
                         "author": {
-                            "name": "Zitel Alerts",
-                            "icon_url": "https://imgur.com/RGYh2ny.png"
+                            "name": "Prometheus Alerts",
+                            "icon_url": "https://imgur.com/TEST_IMAGE.png"
                         },
                         "title": status_text,
-                        "description": "** BSS Alert **",
+                        "description": "** Prometheus Alerts **",
                         "color": 15258703,
                         "fields": [
                         {
