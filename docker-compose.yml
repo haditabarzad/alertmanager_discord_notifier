@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  request-printer:
+    image: request-printer:latest
+    volumes:
+      - ./app:/app
+    ports:
+      - 8088:8088
+    environment:
+      - DISCORD_WEBHOOK=https://discordapp.com/api/webhooks/1PUsOy-jUmxx.......s-1z0lpXC6S
