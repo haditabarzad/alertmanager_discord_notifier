@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   request-printer:
-    image: request-printer:latest
+    image: discord_notifier
     volumes:
       - ./app:/app
     ports:
